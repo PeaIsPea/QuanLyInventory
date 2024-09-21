@@ -1,0 +1,10 @@
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\bin\Debug\QLHangTonKho.exe.config
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\bin\Debug\QLHangTonKho.exe
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\bin\Debug\QLHangTonKho.pdb
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.csproj.AssemblyReference.cache
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Properties.Resources.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.csproj.GenerateResource.cache
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.csproj.CoreCompileInputs.cache
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.exe
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.pdb
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.FrmLogin.resources
