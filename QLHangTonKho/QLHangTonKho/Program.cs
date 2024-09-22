@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QLHangTonKho.Module;
+using QLHangTonKho.views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace QLHangTonKho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            Application.Run(new FrmMain());
         }
     }
 }

@@ -8,3 +8,6 @@ D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.csproj.Co
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.exe
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.pdb
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.FrmLogin.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.FrmMain.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmUsers.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.UserModuleForm.resources
