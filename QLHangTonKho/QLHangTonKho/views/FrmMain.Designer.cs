@@ -112,6 +112,7 @@
             this.btnCategories.TabIndex = 11;
             this.btnCategories.Text = "Categories";
             this.btnCategories.UseVisualStyleBackColor = false;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
             this.btnCategories.MouseLeave += new System.EventHandler(this.btnCategories_MouseLeave);
             this.btnCategories.MouseHover += new System.EventHandler(this.btnCategories_MouseHover);
             // 
@@ -126,6 +127,7 @@
             this.btnCustomers.TabIndex = 10;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.UseVisualStyleBackColor = false;
+            this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             this.btnCustomers.MouseLeave += new System.EventHandler(this.btnCustomers_MouseLeave);
             this.btnCustomers.MouseHover += new System.EventHandler(this.btnCustomers_MouseHover);
             // 

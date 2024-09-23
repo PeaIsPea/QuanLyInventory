@@ -32,6 +32,11 @@ namespace QLHangTonKho.Module
         {
             try
             {
+                if(txtPassword.Text != txtReTypePass.Text)
+                {
+                    MessageBox.Show("Passsword did not match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (MessageBox.Show("Are you sure you want to save this user?", "Saving", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cmd = new SqlCommand("INSERT INTO tbUsers(username,fullname,password,phone)VALUES(@username,@fullname,@password,@phone)", conn);
@@ -57,6 +62,8 @@ namespace QLHangTonKho.Module
         private void btnClear_Click(object sender, EventArgs e)
         {
             Clear();
+            btnSave.Enabled = true;
+            btnUpdate.Enabled = false;
         }
 
         public void Clear()
@@ -64,9 +71,42 @@ namespace QLHangTonKho.Module
             txtUserName.Clear();
             txtFullName.Clear();
             txtPassword.Clear();
+            txtReTypePass.Clear();
             txtPhone.Clear();
-            txtUserName.Focus();
+            txtFullName.Focus();
 
         }
+
+
+        /*Tạo xử lý update*/
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtPassword.Text != txtReTypePass.Text)
+                {
+                    MessageBox.Show("Passsword did not match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (MessageBox.Show("Are you sure you want to update this user?", "Update", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cmd = new SqlCommand("UPDATE tbUsers SET fullname=@fullname,password=@password,phone=@phone WHERE username LIKE '"+txtUserName.Text +"'", conn);
+                    cmd.Parameters.AddWithValue("@username", txtUserName.Text);
+                    cmd.Parameters.AddWithValue("@fullname", txtFullName.Text);
+                    cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                    cmd.Parameters.AddWithValue("@phone", txtPhone.Text);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    MessageBox.Show("User has been successfully updated");
+                    this.Dispose();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }/*--------------------------------------------------------------------------*/
     }
 }

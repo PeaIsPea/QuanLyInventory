@@ -131,6 +131,16 @@ namespace QLHangTonKho
         {
             openChildForm(new FrmUsers());    
         }
+
+        private void btnCustomers_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmCustomers());
+        }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmCategory());
+        }
         /*-----------------------------------------------------*/
     }
 }

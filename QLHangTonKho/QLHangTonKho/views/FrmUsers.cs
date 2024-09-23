@@ -63,10 +63,43 @@ namespace QLHangTonKho.views
             userModuleForm.btnSave.Enabled = true;
             userModuleForm.btnUpdate.Enabled = false;
             userModuleForm.ShowDialog();
+            LoadUser();
         }
+
+
         /*---------------------------------------------*/
 
+        private void dgvUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string colName = dgvUsers.Columns[e.ColumnIndex].Name;
+            if (colName == "Edit")
+            {
+                UserModuleForm userModule = new UserModuleForm();
+                userModule.txtUserName.Text = dgvUsers.Rows[e.RowIndex].Cells[1].Value.ToString();
+                userModule.txtFullName.Text = dgvUsers.Rows[e.RowIndex].Cells[2].Value.ToString();
+                userModule.txtPassword.Text = dgvUsers.Rows[e.RowIndex].Cells[3].Value.ToString();
+                userModule.txtPhone.Text = dgvUsers.Rows[e.RowIndex].Cells[4].Value.ToString();
 
-        
+                userModule.btnSave.Enabled = false;
+                userModule.btnUpdate.Enabled = true;
+                userModule.txtUserName.Enabled = false;
+                userModule.ShowDialog();
+            }
+            else if(colName == "Delete")
+            {
+                if(MessageBox.Show("Are u sure u want to delete this user?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    conn.Open();
+                    cmd = new SqlCommand("DELETE FROM tbUsers WHERE username LIKE '" + dgvUsers.Rows[e.RowIndex].Cells[1].Value.ToString() + "'", conn);
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    MessageBox.Show("Record has been successfully deleted!");
+                    
+                }
+            }
+            LoadUser();
+        }
+
+
     }
 }

@@ -52,11 +52,35 @@
     <Compile Include="CustomerButton.Designer.cs">
       <DependentUpon>CustomerButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Module\CategoryModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\CategoryModuleForm.Designer.cs">
+      <DependentUpon>CategoryModuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CustomerModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\CustomerModuleForm.Designer.cs">
+      <DependentUpon>CustomerModuleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Module\UserModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module\UserModuleForm.Designer.cs">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\FrmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmCustomers.Designer.cs">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
     </Compile>
     <Compile Include="views\FrmMain.cs">
       <SubType>Form</SubType>
@@ -78,8 +102,20 @@
     <Compile Include="views\FrmUsers.Designer.cs">
       <DependentUpon>FrmUsers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Module\CategoryModuleForm.resx">
+      <DependentUpon>CategoryModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\CustomerModuleForm.resx">
+      <DependentUpon>CustomerModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Module\UserModuleForm.resx">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmCustomers.resx">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>

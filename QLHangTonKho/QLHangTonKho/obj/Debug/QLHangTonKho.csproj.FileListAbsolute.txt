@@ -11,3 +11,7 @@ D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.FrmLogin.
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.FrmMain.resources
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmUsers.resources
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.UserModuleForm.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmCustomers.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.CustomerModuleForm.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.CategoryModuleForm.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmCategory.resources
