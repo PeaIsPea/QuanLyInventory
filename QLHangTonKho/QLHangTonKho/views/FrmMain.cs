@@ -104,21 +104,20 @@ namespace QLHangTonKho
         private void openChildForm(Form childForm)
         {
             if(activeForm != null)
-            {
+            
                 activeForm.Close(); 
                 
-            }
-            else
-            {
-                activeForm = childForm;
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                childForm.Dock = DockStyle.Fill;
-                panMain.Controls.Add(childForm);
-                panMain.Tag = childForm;
-                childForm.BringToFront();
-                childForm.Show();
-            }
+            
+            
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panMain.Controls.Add(childForm);
+            panMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            
         }
 
 
@@ -141,6 +140,20 @@ namespace QLHangTonKho
         {
             openChildForm(new FrmCategory());
         }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmProducts());
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmOrder());
+        }
+
+
+
+
         /*-----------------------------------------------------*/
     }
 }

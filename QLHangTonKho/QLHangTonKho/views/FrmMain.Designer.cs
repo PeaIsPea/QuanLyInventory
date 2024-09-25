@@ -83,6 +83,7 @@
             this.btnOrders.TabIndex = 13;
             this.btnOrders.Text = "Orders";
             this.btnOrders.UseVisualStyleBackColor = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             this.btnOrders.MouseLeave += new System.EventHandler(this.btnOrders_MouseLeave);
             this.btnOrders.MouseHover += new System.EventHandler(this.btnOrders_MouseHover);
             // 
@@ -142,6 +143,7 @@
             this.btnProducts.TabIndex = 9;
             this.btnProducts.Text = "Products";
             this.btnProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             this.btnProducts.MouseLeave += new System.EventHandler(this.btnProducts_MouseLeave);
             this.btnProducts.MouseHover += new System.EventHandler(this.btnProducts_MouseHover);
             // 
@@ -204,7 +206,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panMain;
         private System.Windows.Forms.Button btnOrders;
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnCategories;
@@ -212,5 +213,6 @@
         private System.Windows.Forms.Button btnProducts;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.ToolTip toolTip;
+        public System.Windows.Forms.Panel panMain;
     }
 }

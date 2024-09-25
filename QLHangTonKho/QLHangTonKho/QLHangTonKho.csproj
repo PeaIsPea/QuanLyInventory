@@ -64,6 +64,18 @@
     <Compile Include="Module\CustomerModuleForm.Designer.cs">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Module\OrderModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\OrderModuleForm.Designer.cs">
+      <DependentUpon>OrderModuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ProductModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ProductModuleForm.Designer.cs">
+      <DependentUpon>ProductModuleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Module\UserModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\FrmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmProducts.Designer.cs">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\FrmUsers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Module\CustomerModuleForm.resx">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\OrderModuleForm.resx">
+      <DependentUpon>OrderModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ProductModuleForm.resx">
+      <DependentUpon>ProductModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Module\UserModuleForm.resx">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
@@ -131,6 +161,12 @@
     </Compile>
     <EmbeddedResource Include="views\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmProducts.resx">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\FrmUsers.resx">
       <DependentUpon>FrmUsers.cs</DependentUpon>

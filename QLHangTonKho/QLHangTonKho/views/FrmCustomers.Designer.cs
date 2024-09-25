@@ -138,6 +138,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(982, 50);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnAdd
             // 
@@ -160,6 +161,7 @@
             this.label1.Size = new System.Drawing.Size(207, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Manager Customers";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FrmCustomers
             // 

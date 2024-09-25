@@ -15,3 +15,7 @@ D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.Frm
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.CustomerModuleForm.resources
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.CategoryModuleForm.resources
 D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmCategory.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.ProductModuleForm.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmProducts.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.views.FrmOrder.resources
+D:\HOC TAP\C#v2\QLHTK\QLHangTonKho\QLHangTonKho\obj\Debug\QLHangTonKho.Module.OrderModuleForm.resources
